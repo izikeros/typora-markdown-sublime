@@ -4,7 +4,7 @@ import subprocess
 import sublime
 import sublime_plugin
 
-class IawriterCommand(sublime_plugin.WindowCommand):
+class TyporaCommand(sublime_plugin.WindowCommand):
     def run(self):
         filename = self.window.active_view().file_name()
         if filename is None:
@@ -15,7 +15,7 @@ class IawriterCommand(sublime_plugin.WindowCommand):
         for k, v in proc_env.items():
             proc_env[k] = os.path.expandvars(v).encode(encoding)
 
-        subprocess.call(['open', '-a', 'iA Writer', filename], env=proc_env)
+        subprocess.call(['open', '-a', 'typora', filename], env=proc_env)
 
     def is_enabled(self):
         return True
