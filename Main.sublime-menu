@@ -4,8 +4,8 @@
         "children":
         [
             {
-                "caption": "Open with iA Writer",
-                "command": "iawriter"
+                "caption": "Open with Typora",
+                "command": "typora"
             }
         ]
     }
