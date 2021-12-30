@@ -30,4 +30,4 @@ Thanks to [@jbrooksuk](https://github.com/jbrooksuk) for [iawriter-markdown-subl
 [@rwoody](https://github.com/rwoody) for [mou-markdown-sublime](https://github.com/rwoody/mou-markdown-sublime)
 
 # License
-[MIT](http://izikeros.mit-license.org)
+MIT
